@@ -42,7 +42,7 @@ public class EnemyIo : MonoBehaviour
 
     private void PatrolUpdate()
     {
-        if(!_isPlayerNoticed)
+        if (!_isPlayerNoticed)
         {
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
@@ -66,7 +66,8 @@ public class EnemyIo : MonoBehaviour
         ChaseUpdate();
         AttackUpdate();
         PatrolUpdate();
-    
+
+
     }
 
     private void AttackUpdate()
