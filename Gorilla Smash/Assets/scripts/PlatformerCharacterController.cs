@@ -92,15 +92,15 @@ public class PlatformerCharacterController : MonoBehaviour
         {
             D = true;
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             W = true;
         }
-        if (Input.GetKeyUp(KeyCode.W))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             WUp = true;
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             WDown = true;
         }
@@ -144,7 +144,7 @@ public class PlatformerCharacterController : MonoBehaviour
         //Moving
         if (A)//Move left
         {
-            playerOrientation = Vector3.up * 270;
+            playerOrientation = Vector3.up * 0;
             //Ground movement
             if (grounded && !dashLeftPerformed && !dashRightPerformed && !reboundPerformed)
             {
@@ -158,7 +158,7 @@ public class PlatformerCharacterController : MonoBehaviour
         }
         else if (D)//Move right
         {
-            playerOrientation = Vector3.up * 90;
+            playerOrientation = Vector3.up * 180;
             //Ground movement
             if (grounded && !dashLeftPerformed && !dashRightPerformed && !reboundPerformed)
             {

@@ -63,15 +63,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828af90a14012bc43a83d6eac1f9c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatorController: {fileID: 0}
-  Speed: 5
-  Gravity: 9.8
-  JumpHeight: 1
+  animatorController: {fileID: 9100000, guid: 58cf3532b2cd1ea4b81bb32c7af03338, type: 2}
+  Speed: 70
+  Gravity: 25
+  JumpHeight: 10
   DoubleJumpEnabled: 1
   DashEnabled: 1
-  DashSpeed: 20
+  DashSpeed: 30
   DashTime: 0.3
-  ReboundEnabled: 0
+  ReboundEnabled: 1
   ReboundAngle: 30
   ReboundSpeed: 5
   ReboundTimeout: 1
