@@ -67,7 +67,6 @@ public class EnemyIo : MonoBehaviour
         AttackUpdate();
         PatrolUpdate();
 
-
     }
 
     private void AttackUpdate()
@@ -95,6 +94,6 @@ public class EnemyIo : MonoBehaviour
                     _isPlayerNoticed = true;
                 }
             }
-        }  
+        }
     }
 }
