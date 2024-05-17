@@ -5,11 +5,17 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public float value = 100;
-    
-    public GameObject GameplayUI;
+    public RectTransform ValueRectTransform;
+
     public GameObject GameOverScreen;
-    public Animator animator;
-   
+
+    private float _maxValue;
+
+    private void Start()
+    {
+        _maxValue = value;
+        DrawHealthBar();
+    }
     public void DealDamage(float damage)
     {
         value -= damage;
@@ -17,12 +23,16 @@ public class PlayerHealth : MonoBehaviour
         {
             PlyerIsDead();
         }
+        DrawHealthBar();
     }
 
     private void PlyerIsDead()
     {
-           GameplayUI.SetActive(false);
            GameOverScreen.SetActive(true);
            GetComponent<PlatformerCharacterController>().enabled = false;
+    }
+    private void DrawHealthBar()
+    {
+        ValueRectTransform.anchorMax = new Vector2(value / _maxValue, 1);
     }
 }

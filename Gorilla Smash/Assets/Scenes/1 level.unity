@@ -3012,6 +3012,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 584448614281337155, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111895635267342449, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1242694499212572394, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3062,6 +3072,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2757751374360590985, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5321461478936113537, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
       propertyPath: m_Mesh
@@ -3082,6 +3097,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CookingOptions
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5744614702830696998, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 20.197699
+      objectReference: {fileID: 0}
+    - target: {fileID: 5744614702830696998, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 142.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5744614702830696998, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 5966855215831752471, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}

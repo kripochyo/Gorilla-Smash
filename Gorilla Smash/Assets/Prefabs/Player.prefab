@@ -335,9 +335,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 100
-  GameplayUI: {fileID: 0}
+  ValueRectTransform: {fileID: 0}
   GameOverScreen: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!1 &6956922415915594279
 GameObject:
   m_ObjectHideFlags: 0
