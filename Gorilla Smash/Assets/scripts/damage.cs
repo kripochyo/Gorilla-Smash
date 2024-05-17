@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class damage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int Damage = 100;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("aaa"))
+        {
+            other.GetComponent<EnemyHealth>().DealDamage(Damage);
+        }
     }
 }
