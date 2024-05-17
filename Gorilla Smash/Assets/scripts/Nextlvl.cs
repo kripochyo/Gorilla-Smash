@@ -7,6 +7,7 @@ public class Nextlvl : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 }
