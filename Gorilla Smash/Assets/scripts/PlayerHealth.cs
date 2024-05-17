@@ -24,6 +24,5 @@ public class PlayerHealth : MonoBehaviour
            GameplayUI.SetActive(false);
            GameOverScreen.SetActive(true);
            GetComponent<PlatformerCharacterController>().enabled = false;
-           animator.SetTrigger("Death");
     }
 }

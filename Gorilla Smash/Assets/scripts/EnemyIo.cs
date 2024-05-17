@@ -15,11 +15,6 @@ public class EnemyIo : MonoBehaviour
     private PlayerHealth _PlayerHealth;
     private EnemyHealth _enemyHealth;
 
-    public bool IsAlive()
-    {
-        return _enemyHealth.IsAlive();
-    }
-
     // Start is called before the first frame update
     private void Start()
     {
