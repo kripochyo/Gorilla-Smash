@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public RectTransform ValueRectTransform;
 
     public GameObject GameOverScreen;
+    public GameObject GameplayUI;
 
     private float _maxValue;
 
@@ -28,8 +29,9 @@ public class PlayerHealth : MonoBehaviour
 
     private void PlyerIsDead()
     {
-           GameOverScreen.SetActive(true);
-           GetComponent<PlatformerCharacterController>().enabled = false;
+        GameplayUI.SetActive(false);
+        GameOverScreen.SetActive(true);
+        GetComponent<PlatformerCharacterController>().enabled = false;
     }
     private void DrawHealthBar()
     {
