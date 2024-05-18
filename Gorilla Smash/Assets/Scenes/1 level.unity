@@ -471,7 +471,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1520686985}
+      objectReference: {fileID: 588035441}
     - target: {fileID: 5911975854527746851, guid: 295556049fcc20e4687c28521e5882cf,
         type: 3}
       propertyPath: viewAngle
@@ -1306,6 +1306,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549907815}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &588035441 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3103821485889597207, guid: 1b053b65eaec69f4189e55e881be645e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6144104275678980529}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828af90a14012bc43a83d6eac1f9c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &603223715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6144104275115613970, guid: 1b053b65eaec69f4189e55e881be645e,
@@ -1973,7 +1985,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1520686985}
+      objectReference: {fileID: 588035441}
     - target: {fileID: 5911975854527746851, guid: 295556049fcc20e4687c28521e5882cf,
         type: 3}
       propertyPath: viewAngle
@@ -3032,18 +3044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a5bb72d12604541a96144b528e304c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1520686985 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6144104275115613968, guid: 1b053b65eaec69f4189e55e881be645e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6144104275678980529}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828af90a14012bc43a83d6eac1f9c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1527516525
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,7 +3879,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1520686985}
+      objectReference: {fileID: 588035441}
     - target: {fileID: 5911975854527746851, guid: 295556049fcc20e4687c28521e5882cf,
         type: 3}
       propertyPath: viewAngle
@@ -4586,7 +4586,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1520686985}
+      objectReference: {fileID: 588035441}
     - target: {fileID: 5911975854527746851, guid: 295556049fcc20e4687c28521e5882cf,
         type: 3}
       propertyPath: viewAngle
@@ -5200,7 +5200,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1520686985}
+      objectReference: {fileID: 588035441}
     - target: {fileID: 5911975854527746851, guid: 295556049fcc20e4687c28521e5882cf,
         type: 3}
       propertyPath: viewAngle
@@ -5849,6 +5849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CullTransparentMesh
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103821485889597207, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: JumpHeight
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}

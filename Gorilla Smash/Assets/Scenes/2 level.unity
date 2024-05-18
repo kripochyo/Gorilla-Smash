@@ -2988,6 +2988,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SoundToggleButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3103821485889597207, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: JumpHeight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103821485889597207, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: ReboundAngle
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
