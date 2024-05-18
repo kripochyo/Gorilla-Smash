@@ -8,6 +8,6 @@ public class win : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(6);
     }
 }
