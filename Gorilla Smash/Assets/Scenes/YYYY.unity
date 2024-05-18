@@ -190,6 +190,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d61070e462e73b48a78c4c0120e5d9c, type: 3}
+--- !u!114 &18752137 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2319056165584676465, guid: 7d61070e462e73b48a78c4c0120e5d9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 18752136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356027a81cb3ed34992f08aea4806fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &243401963
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +488,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -12.111001
       objectReference: {fileID: 0}
+    - target: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1361065005}
+    - target: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundToggleButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 18752137}
+    - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ButtonMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 4872560959129351296, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
       propertyPath: m_RootOrder
@@ -585,6 +617,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 909170795}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &909170797 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+    type: 3}
+  m_PrefabInstance: {fileID: 909170795}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &916800373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 238670783930041402, guid: 1b053b65eaec69f4189e55e881be645e,
@@ -653,7 +697,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _soundButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 909170797}
     - target: {fileID: 2874606966161192827, guid: 4db95c631339bf34ead3629329cbd48c,
         type: 3}
       propertyPath: m_RootOrder
@@ -716,6 +760,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db95c631339bf34ead3629329cbd48c, type: 3}
+--- !u!114 &1361065005 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2874606966161192826, guid: 4db95c631339bf34ead3629329cbd48c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1361065004}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcabcf81ca7c0ef46bef33ed6c154965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1825548882 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2033977008038253009, guid: 1b053b65eaec69f4189e55e881be645e,
