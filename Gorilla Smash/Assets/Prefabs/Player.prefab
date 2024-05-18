@@ -796,7 +796,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6144104275115613970}
   - component: {fileID: 6144104275115613971}
-  - component: {fileID: 6144104275115613968}
   - component: {fileID: 1275883834978442341}
   m_Layer: 0
   m_Name: Player
@@ -840,30 +839,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 20, y: -33, z: 0}
---- !u!114 &6144104275115613968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6144104275115613969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828af90a14012bc43a83d6eac1f9c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animatorController: {fileID: 9100000, guid: 58cf3532b2cd1ea4b81bb32c7af03338, type: 2}
-  Speed: 70
-  Gravity: 25
-  JumpHeight: 10
-  DoubleJumpEnabled: 1
-  DashEnabled: 1
-  DashSpeed: 30
-  DashTime: 0.3
-  ReboundEnabled: 1
-  ReboundAngle: 30
-  ReboundSpeed: 5
-  ReboundTimeout: 1
 --- !u!114 &1275883834978442341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,15 +1053,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30630100c9919de4e864b2e221dd107b, type: 3}
---- !u!1 &1906466011357768784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 30630100c9919de4e864b2e221dd107b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1636013298809360641}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1242694499212572394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 30630100c9919de4e864b2e221dd107b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1636013298809360641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1906466011357768784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 30630100c9919de4e864b2e221dd107b,
     type: 3}
   m_PrefabInstance: {fileID: 1636013298809360641}
   m_PrefabAsset: {fileID: 0}
