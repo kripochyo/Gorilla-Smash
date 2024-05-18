@@ -10,6 +10,7 @@ public class EnemyHealth : MonoBehaviour
     public void DealDamage(int damage)
     {
         value -= damage;
+        Debug.Log("EnemyHealth " + value);
         if(value <= 0)
         {
             Destroy(gameObject);
