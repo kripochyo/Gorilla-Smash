@@ -8,6 +8,7 @@ public class EnemyIo : MonoBehaviour
     public List<Transform> patrolPoints;
     public PlatformerCharacterController player;
     public float viewAngle;
+    public float DamageDistanc=1;
     public float Damage = 30;
 
     private NavMeshAgent _navMeshAgent;
@@ -68,7 +69,7 @@ public class EnemyIo : MonoBehaviour
     {
         if (_isPlayerNoticed)
         {
-            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+            if (Vector3.Distance(transform.position, _PlayerHealth.transform.position)<DamageDistanc)
             {
                 _PlayerHealth.DealDamage(Damage * Time.deltaTime);
             }
