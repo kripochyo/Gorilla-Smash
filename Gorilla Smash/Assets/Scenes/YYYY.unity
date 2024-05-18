@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1868808989}
-  m_IndirectSpecularColor: {r: 0.6541907, g: 0.6807782, b: 0.71862715, a: 1}
+  m_IndirectSpecularColor: {r: 0.65425473, g: 0.680792, b: 0.71878153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1647,7 +1647,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 194.07
+      value: 163.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1692,7 +1692,7 @@ PrefabInstance:
     - target: {fileID: -6362570035026245711, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3758926
+      value: 1.1188926
       objectReference: {fileID: 0}
     - target: {fileID: -6362570035026245711, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1707,7 +1707,7 @@ PrefabInstance:
     - target: {fileID: -5888732650920958747, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75436527
+      value: -0.011365347
       objectReference: {fileID: 0}
     - target: {fileID: -5888732650920958747, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1721,8 +1721,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e5d09d5abf87d9e4e8c728e11868525f, type: 2}
     - target: {fileID: -1913864242492343030, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1913864242492343030, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
+        type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.18
+      value: 0.5629999
       objectReference: {fileID: 0}
     - target: {fileID: -1913864242492343030, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1757,7 +1762,7 @@ PrefabInstance:
     - target: {fileID: 5319135060614293385, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75436527
+      value: -0.011365347
       objectReference: {fileID: 0}
     - target: {fileID: 5319135060614293385, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1772,7 +1777,7 @@ PrefabInstance:
     - target: {fileID: 5985096187456356897, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.17999998
+      value: 0.563
       objectReference: {fileID: 0}
     - target: {fileID: 5985096187456356897, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1787,7 +1792,7 @@ PrefabInstance:
     - target: {fileID: 6602696875823116705, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75436527
+      value: -0.011365347
       objectReference: {fileID: 0}
     - target: {fileID: 6602696875823116705, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -1807,7 +1812,7 @@ PrefabInstance:
     - target: {fileID: 9178737800897731528, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3758926
+      value: 1.1188926
       objectReference: {fileID: 0}
     - target: {fileID: 9178737800897731528, guid: 68b6874a6c4c6c44fa2ae3f5cfb950ef,
         type: 3}
@@ -2129,7 +2134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111821258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 176.00008, y: -301.99997, z: 924.0001}
+  m_LocalPosition: {x: 176.00008, y: -284, z: 924.0001}
   m_LocalScale: {x: 1166.6356, y: 21.393, z: 1647.2662}
   m_Children: []
   m_Father: {fileID: 679029229}
@@ -3168,7 +3173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravity: 9.8
   jumpForce: 2
-  speed: 1000
+  speed: 40
 --- !u!1 &1868808988
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,6 +3476,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2029384118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029384114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f112ac8bbbf494796b75e395a4ec1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints: []
+  player: {fileID: 0}
+  viewAngle: 90
+  Damage: 30
 --- !u!1 &2130067430
 GameObject:
   m_ObjectHideFlags: 0
