@@ -371,6 +371,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149644389}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &241458831 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6144104275678980529}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &248731689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6830526212418376552, guid: 295556049fcc20e4687c28521e5882cf,
@@ -393,6 +405,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &256495536 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2874606966161192826, guid: 4db95c631339bf34ead3629329cbd48c,
+    type: 3}
+  m_PrefabInstance: {fileID: 980830552}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcabcf81ca7c0ef46bef33ed6c154965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &436841116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,6 +579,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471138649}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &486619695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2319056165584676465, guid: 7d61070e462e73b48a78c4c0120e5d9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 436841116}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356027a81cb3ed34992f08aea4806fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &549907815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1132,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _soundButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 241458831}
     - target: {fileID: 2874606966161192827, guid: 4db95c631339bf34ead3629329cbd48c,
         type: 3}
       propertyPath: m_RootOrder
@@ -3285,10 +3321,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 256495536}
+    - target: {fileID: 1690908221934491110, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundToggleButton
+      objectReference: {fileID: 0}
     - target: {fileID: 2757751374360590985, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
       propertyPath: m_CullTransparentMesh
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 486619695}
+    - target: {fileID: 4297134863238534634, guid: 1b053b65eaec69f4189e55e881be645e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ButtonMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5321461478936113537, guid: 1b053b65eaec69f4189e55e881be645e,
         type: 3}
