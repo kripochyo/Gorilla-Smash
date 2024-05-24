@@ -6067,25 +6067,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8994868390634413003}
   m_CullTransparentMesh: 0
---- !u!114 &1777324322082121683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777324322082121686}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d5c17d9eafb5d249b9e181f7ee4c7b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action:
-    m_PersistentCalls:
-      m_Calls: []
-  destroyAfterExecute: 0
-  needsCondition: 0
-  itemsToExecute: 3
-  autoExecute: 0
 --- !u!135 &1777324322082121684
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6124,7 +6105,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1777324322082121685}
   - component: {fileID: 1777324322082121684}
-  - component: {fileID: 1777324322082121683}
   m_Layer: 0
   m_Name: InteractiveButton
   m_TagString: Untagged
